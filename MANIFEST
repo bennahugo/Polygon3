@@ -16,3 +16,7 @@ src/cPolygon.c
 src/PolyUtil.c
 src/PolyUtil.h
 test/Test.py
+
+# built ext libraries
+recursive-include Polygon *.so
+recursive-include Polygon *.pyd
